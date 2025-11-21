@@ -18,29 +18,9 @@ It is designed to help learn Kubernetes basics: Deployments, Services, NodePorts
 
 ---
 
-## 📁 Folder Structure
-```
-learn-kube/
-│
-├── fe/ # Frontend source (Preact + Vite)
-│ └── Dockerfile
-│
-├── be/ # Backend source (Node.js + SQLite)
-│ └── Dockerfile
-│
-└── k8s/
-├── frontend/
-│ ├── deployment.yaml
-│ └── service.yaml
-│
-└── backend/
-├── deployment.yaml
-└── service.yaml
-```
 
----
 
-#To get run project on minikube
+## To get run project on minikube
 1. Start Minikube
 ```minikube start```
 
