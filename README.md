@@ -19,7 +19,7 @@ It is designed to help learn Kubernetes basics: Deployments, Services, NodePorts
 ---
 
 ## 📁 Folder Structure
-
+```
 learn-kube/
 │
 ├── fe/ # Frontend source (Preact + Vite)
@@ -36,7 +36,7 @@ learn-kube/
 └── backend/
 ├── deployment.yaml
 └── service.yaml
-
+```
 
 ---
 
