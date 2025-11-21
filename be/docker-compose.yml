@@ -1,0 +1,19 @@
+version: '3.8'
+
+networks:
+  shared-net:
+    external: true
+
+services:
+  api:
+    build: .
+    container_name: be
+    ports:
+      - "3000:3000"
+    cpus: 0.125
+    mem_limit: 50m
+    environment:
+      - DB_URL=http://db:8080
+    restart: unless-stopped
+    networks:
+      - shared-net

@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fe
+    ports:
+      - "5173:5173"
+    cpus: 0.5
+    mem_limit: 150m
+    restart: unless-stopped

@@ -1,0 +1,20 @@
+config:
+  target: "http://localhost:3000/listTasks"
+  phases:
+    - duration: 60
+      arrivalRate: 50
+    - duration: 60
+      arrivalRate: 100
+    - duration: 60
+      arrivalRate: 200
+    - duration: 60
+      arrivalRate: 300
+    - duration: 60
+      arrivalRate: 400
+    - duration: 60
+      arrivalRate: 500
+scenarios:
+  - flow:
+    - get:
+        url: "/listTasks"
+

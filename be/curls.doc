@@ -1,0 +1,7 @@
+curl http://localhost:3000/listTasks  #get all the tasks
+
+curl -X POST http://localhost:3000/tasks -d '{"task":"Buy milk"}' #add task
+
+curl -X PUT http://localhost:3000/tasks/id -d '{"task":"Buy eggs"}' #update task with "id"
+
+curl -X DELETE http://localhost:3000/tasks/id  #delete task with id  

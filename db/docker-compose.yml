@@ -1,0 +1,17 @@
+version: '3.8'
+
+networks:
+  shared-net:
+    external: true
+
+services:
+  db:
+    build: .
+    container_name: db
+    ports:
+      - "8080:8080"
+    cpus: 0.125
+    mem_limit: 100m
+    restart: unless-stopped
+    networks:
+      - shared-net
