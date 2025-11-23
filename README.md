@@ -20,22 +20,5 @@ It is designed to help learn Kubernetes basics: Deployments, Services, NodePorts
 
 
 
-## To get run project on minikube
-1. Start Minikube
-```minikube start```
-
-2. Deploy Backend
-```
-kubectl apply -f k8s/backend/deployment.yaml
-kubectl apply -f k8s/backend/service.yaml
-```
-3. Deploy Frontend
-```
-kubectl apply -f k8s/frontend/deployment.yaml
-kubectl apply -f k8s/frontend/service.yaml
-```
-4. Verify Resources
-```
-kubectl get pods -n learn-kube
-kubectl get svc -n learn-kube
+For More- https://medium.com/@yashaspancham/crud-with-kubernetes-09a673229d20
 ```
