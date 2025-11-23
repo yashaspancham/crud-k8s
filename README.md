@@ -21,4 +21,3 @@ It is designed to help learn Kubernetes basics: Deployments, Services, NodePorts
 
 
 For More- https://medium.com/@yashaspancham/crud-with-kubernetes-09a673229d20
-```
